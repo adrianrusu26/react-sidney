@@ -11,7 +11,7 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   >
-  <title>Document</title>
+  <title>Contact Manager</title>
 
   <link
     rel="stylesheet"
@@ -32,7 +32,7 @@
       <ul class="nav me-auto">
         <li class="nav-item btn-group">
           <button
-            class="btn btn-success"
+            class="btn btn-success add-contact-button"
             title="Add contact"
           >Add contact</button>
         </li>
@@ -44,10 +44,7 @@
     <div class="container d-flex justify-content-center flex-wrap">
       <h1 class="fs-4 mb-3 mb-lg-0 me-lg-auto text-dark">Contact Manager</h1>
 
-      <form
-        action=""
-        class="d-flex w-75 mb-3 mb-lg-0 search-form"
-      >
+      <form class="d-flex w-75 mb-3 mb-lg-0 search-form">
         <input
           type="text"
           class="form-control"
@@ -57,21 +54,18 @@
 
         <button
           class="btn btn-primary ms-2"
-          type="submit"
           title="Search"
+          type="submit"
         >Search</button>
       </form>
     </div>
-
   </header>
 
   <main class="container">
-
     <div class="mb-4 notification-bar"></div>
 
     <div class="stage"></div>
   </main>
-
 
   <script
     src="app.js"
